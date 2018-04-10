@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="ddhub-site angularjs ds2_no-touchevents ds2_no-forcetouch ds2_matchmedia isPC isFirefox" data-signed-in="true" lang="en"><head>
+</head>
+<body >
+
+<div ng-controller="tablesController" style="background-color:#FFF;">
+    <div class="table-wrapper">
+        <table ddh-table data-table="complex-table" table-config="tableBreakpoints" responsive="true" >
+                        <thead ddh-table-row type="header">
+                <tr>
+                    <th id="heading1" ddh-table-header key="0" priority="0" sortable="false" default-sort="a" is-open="true">VehicleId</th>
+                    <th id="heading2" ddh-table-header key="1" priority="2" sortable="false">Model</th>
+                    <th id="heading3" ddh-table-header key="2" priority="3" sortable="false">Year</th>
+                    <th id="heading4" ddh-table-header key="3" priority="4" sortable="false">Price</th>
+                    <th id="heading5" ddh-table-header key="4" priority="5" sortable="false">VehicleStatus</th>
+                    <th id="heading5" ddh-table-header key="5" priority="5" sortable="false">DealerName</th>
+                </tr>
+            </thead>
+            <tbody ddh-table-row type="body" row-repeat="rowData in tableData1">
+                <tr>
+                    <td id="rowheader_t2_" headers="heading1" ddh-table-body ng-bind="rowData['0']"><a href="javascript:void(0)" ng-click="myCallBack('true')">1</a></td>
+                    <td headers="rowheader_t2_ heading2" ddh-table-body ng-bind="rowData['1']">XUV</td>
+                    <td headers="rowheader_t2_ heading3" ddh-table-body ng-bind="rowData['2']">2017</td>
+                    <td headers="rowheader_t2_ heading4" ddh-table-body ng-bind="rowData['3']">500000</td>
+                    <td headers="rowheader_t2_ heading5" ddh-table-body ng-bind="rowData['4']">NEW</td>
+                    <td headers="rowheader_t2_ heading6" ddh-table-body ng-bind="rowData['5']">FORDMotors</td>
+                </tr>
+                <tr>
+                    <td id="rowheader_t2_" headers="heading1" ddh-table-body ng-bind="rowData['0']"><a href="javascript:void(0)" ng-click="myCallBack('true')">2</a></td>
+                    <td headers="rowheader_t2_ heading2" ddh-table-body ng-bind="rowData['1']">XUV</td>
+                    <td headers="rowheader_t2_ heading3" ddh-table-body ng-bind="rowData['2']">2017</td>
+                    <td headers="rowheader_t2_ heading4" ddh-table-body ng-bind="rowData['3']">500000</td>
+                    <td headers="rowheader_t2_ heading5" ddh-table-body ng-bind="rowData['4']">NEW</td>
+                    <td headers="rowheader_t2_ heading6" ddh-table-body ng-bind="rowData['5']">FORDMotors</td>
+                </tr>
+                <tr>
+                    <td id="rowheader_t2_" headers="heading1" ddh-table-body ng-bind="rowData['0']"><a href="javascript:void(0)" ng-click="myCallBack('true')">3</a></td>
+                    <td headers="rowheader_t2_ heading2" ddh-table-body ng-bind="rowData['1']">XUV</td>
+                    <td headers="rowheader_t2_ heading3" ddh-table-body ng-bind="rowData['2']">2017</td>
+                    <td headers="rowheader_t2_ heading4" ddh-table-body ng-bind="rowData['3']">500000</td>
+                    <td headers="rowheader_t2_ heading5" ddh-table-body ng-bind="rowData['4']">NEW</td>
+                    <td headers="rowheader_t2_ heading6" ddh-table-body ng-bind="rowData['5']">FORDMotors</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--DS22SD-->
+
+   
+   
+    <div class="cta-button-group">		
+					<button type="button" class="btn btn-secondary btn-clear" onclick="window.location='AODP_HomeScreen.htm';">OK</button>
+				</div>    
+
+<div style="display:block;width:100%;height:50px;"></div>
+
+<div>
+
+
+</div>
+</body>
+</html>
+
+
+
+   
