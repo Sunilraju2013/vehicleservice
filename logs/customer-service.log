@@ -1397,5 +1397,5 @@ Caused by: java.sql.SQLFeatureNotSupportedException: Method org.postgresql.jdbc.
 2018-04-09 13:09:44.967  INFO 25164 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
 2018-04-09 13:09:44.970  INFO 25164 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
 2018-04-09 13:09:44.981  INFO 25164 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2018-04-09 13:09:45.020  INFO 25164 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-04-09 13:09:45.020  INFO 25164 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated.
 2018-04-09 13:09:45.055  INFO 25164 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
